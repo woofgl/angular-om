@@ -1,0 +1,23 @@
+{
+  "family": "om",
+  "name": "angular-om",
+  "version": "1.0.0",
+  "description": "The best project ever.",
+  "homepage": "https://github.com/Administrator/angular-om",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Administrator/angular-om.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": ["widget"],
+  "licenses": "MIT",
+  "spm": {
+    "output": ["angular-om.js"],
+    "alias": {},
+    "devAlias": {},
+    "engines": {}
+  }
+}
