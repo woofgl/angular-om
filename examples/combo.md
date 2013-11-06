@@ -1,4 +1,4 @@
-# 演示文档
+# 组合输入框
 
 ---
 ### import
@@ -23,11 +23,11 @@
 <input ng-model="bind" om-calendar >
 {{bind}}
 <h4>expose</h4>
-<input ng-model="bind1" om-calendar="omCal" >
-{{bind1}}
+<input ng-model="bind" om-calendar="omCal" >
+cid: {{omCal("options").dateFormat}}
 
 <h4>not popup</h4>
-<div o-popup="false" om-calendar ></div>
+<div o-popup="false" om-calendar="omCal" ></div>
 
 </div>
 ````
